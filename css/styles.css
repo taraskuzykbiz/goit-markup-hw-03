@@ -1,3 +1,17 @@
+:root {
+  --brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+  --btn-color: #404bbf;
+  --underline-color: #00bfff;
+  --button-decoratin-color: #8a2be2;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -15,18 +29,28 @@ ul {
   margin: 0;
 }
 
-:root {
-  --brand-color: #4d5ae5;
-  --dark-color: #2e2f42;
-  --success-color: #31d0aa;
-  --text-color: #434455;
-  --subtle-text-color: #8e8f99;
-  --accent-color: #e7e9fc;
-  --light-color: #f4f4fd;
-  --white-color: #ffffff;
-  --btn-color: #404bbf;
-  --underline-color: #00bfff;
-  --button-decoratin-color: #8a2be2;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 body {
