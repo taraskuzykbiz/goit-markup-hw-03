@@ -79,6 +79,7 @@ body {
   margin-right: 77px;
   padding-top: 22px;
   padding-bottom: 22px;
+  font-family: Raleway;
 }
 
 .logo span {
@@ -93,9 +94,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-.current {
-  color: var(--btn-color);
 }
 
 .page-list {
@@ -120,6 +118,10 @@ a {
 .page-list .page-link:active {
   text-decoration: underline var(--btn-color);
   color: var(--brand-color);
+}
+
+.current {
+  color: var(--btn-color);
 }
 
 .contact-list {
@@ -258,7 +260,7 @@ a {
   color: var(--dark-color);
   font-weight: 700;
   letter-spacing: 0.02em;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
 }
 
@@ -314,8 +316,6 @@ a {
 
 .filter-bottons {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -375,8 +375,6 @@ a {
   color: var(--dark-color);
   font-weight: 700;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-left: 16px;
 }
 
 .direction {
